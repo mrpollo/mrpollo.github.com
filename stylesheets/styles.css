@@ -770,6 +770,9 @@ dt {
   float: left;
   margin-left: 0px;
 }
+#header nav li.pull-right{
+  margin: 0 10px;
+}
 #header nav li.downloads {
   float: right;
   margin-left: 6px;
@@ -818,6 +821,13 @@ section #title .credits.left {
 }
 section #title .credits.right {
   float: right;
+}
+
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right
 }
 
 @media print, screen and (max-width: 720px) {
